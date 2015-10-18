@@ -96,7 +96,7 @@
 				echo '<td>'.$onu_mac.'</td>';
 				echo '<td>'.$olt.'</td>';
 				echo '<td>'.$pon.'</td>';
-				echo '<td><a href="mod.inc.php?num='.$num.'">ÐÞ¸Ä</a>/<a onclick="return confirm(\'ÄãÈ·¶¨ÒªÉ¾³ýºÅÂë'.$user_num.'Âð?\')" href="del.inc.php?num='.$num.'&user_num='.$user_num.'">É¾³ý</a></td>';
+				echo '<td><a href="mod.inc.php?num='.$num.'">ÐÞ¸Ä</a>/<a onclick="return confirm(\'ÄãÈ·¶¨ÒªÉ¾³ýºÅÂë'.$user_num.'Âð?\')" href="index.php?action=del&num='.$num.'&user_num='.$user_num.'">É¾³ý</a></td>';
 				echo '</tr>';
 			}
 			echo '<tr><td colspan="6">'.$page->fpage().'</td></tr>';

@@ -1,6 +1,6 @@
 <?php /** file: add.inc.php  图书添加表单 */ ?>
 <h3>添加账号:</h3>
-<form enctype="multipart/form-data" action="conn.inc.php" method="POST">
+<form enctype="multipart/form-data" action="index.php?action=insert" method="POST">
 	序号：<input type="text" name="num" value="" /><br>
 	开通类型：<select name="kaitongleixin">
 				 		<option value="装机" >装机</option>

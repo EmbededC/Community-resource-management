@@ -11,7 +11,7 @@
 	}
 		mysql_query('set names gb2312');
 	/* 通过ID查找指定的一行记录 */
-	$sql = "SELECT num, kaitongleixin,gongdan, user_name, user_num , user_address, onu_type, onu_mac, olt, pon FROM kd_zyxx WHERE num='{$_GET["num"]}'";
+	$sql = "SELECT num, kaitongleixin,gongdan, user_name, user_num , user_address, onu_type, onu_mac, olt, pon FORM kd_zyxx WHERE num='{$_GET["num"]}'";
 	$result = mysql_query($sql);
 	
 	if($result && mysql_num_rows($result) > 0) {

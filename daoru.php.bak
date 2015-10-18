@@ -18,7 +18,7 @@ if (!mysql_error());
 {
 echo " 成功导入数据!";
 }
-//echo $string[10]."\n";
+echo $string[10]."\n";
 unset($string);
 } 
 
